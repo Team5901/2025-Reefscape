@@ -61,6 +61,7 @@ import java.util.function.DoubleSupplier;
 import java.util.function.Supplier;
 
 @LoggedObject
+//TODO: Update with Swerve drive
 public class Drivetrain extends SubsystemBase implements BaseDifferentialDrive {
     @Log
     private final SparkMax leftPrimaryMotor;
